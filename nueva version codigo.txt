@@ -1,0 +1,6 @@
+ public float valorCapacidad () { //Método tipo función
+        float capacidad;
+        float pi = 3.1416f; //Si no incluimos la f el compilador considera que 3.1416 es double
+        capacidad = pi * (diametro/2) * (diametro/2) * altura;
+        return capacidad;
+  }    
